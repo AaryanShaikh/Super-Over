@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super_Over</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img class="profile-icon" src="./assets/Chennai-Super-Kings-Logo-PNG-Image-.png" height="150px" width="150px" alt="logo">
+                <span class="name" id="team1"></span>
+                <div class="row runs" id="runst1">
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>  
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <span id="t1score"></span>
+                    <span>-</span>
+                    <span id="t2score"></span>
+                </div>
+            </div>
+            <div class="col">
+                <img class="profile-icon" src="./assets/mi.png" height="150px" width="150px" alt="logo">
+                <span class="name" id="team2"></span>
+                <div class="row runs" id="runst2">
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>  
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button class="strike" id="strikebtn" onclick="btnclick()"></button>
+        </div>
+        <!-- Results -->
+        <div class="row" id="res" hidden></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

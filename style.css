@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: #9013fe;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background: white;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 20px;
+    align-self: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container > .row{
+    justify-content: space-evenly;
+    width: 100%;
+}
+.profile-icon{
+    border-radius: 50%;
+    border: 2px solid bisque;
+}
+.name{
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+.runs{
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+.strike{
+    width: 300px;
+    border-radius: 50px;
+    border: none;
+    font-size: large;
+    color: white;
+    background: linear-gradient(135deg,#c02425,#f0cb35);
+    padding: 10px;
+    margin-top: 50px;
+    outline: none;
+}
+.strike:hover{
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 53%);
+}
+.score{
+    margin: -80px 0 0;
+    font-size: xx-large;
+}
+.score>span{
+    margin: 0 5px;
+}
+#res{
+    margin-top: 50px;
+    background: linear-gradient(135deg,#c02425,#f0cb35);
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bolder;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
